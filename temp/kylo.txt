@@ -1,0 +1,27 @@
+
+
+Key Action:
+DBeaver Hive JDBC Must Use the correct JDBC Version
+
+WebHDFS:
+153.65.129.233:50070/explorer.html
+
+
+sftp> put test.csv
+
+[root@sandbox dropzone]# beeline
+Beeline version 1.2.1000.2.5.3.0-37 by Apache Hive
+beeline> !connect jdbc:hive2://localhost:10000
+0: jdbc:hive2://localhost:10000> show databases;
+3 rows selected (0.041 seconds)
+0: jdbc:hive2://localhost:10000> use website;
+No rows affected (0.06 seconds)
+0: jdbc:hive2://localhost:10000> show tables;
+5 rows selected (0.056 seconds)
+0: jdbc:hive2://localhost:10000> select * from mytest;
+12 rows selected (0.479 seconds)
+
+HDFS Command:
+[root@sandbox /]# hdfs dfs -ls /app/warehouse/website
+
+
