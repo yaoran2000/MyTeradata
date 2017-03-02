@@ -1,0 +1,7 @@
+store_id,store_name,capacity,city,region
+1,aa,50000,Shanghai,East
+2,bb,80000,Shanghai,East
+3,cc,90000,Shanghai,East
+4,dd,58000,Beijing,North
+5,ee,70000,Beijing,North
+6,ff,30000,Beijing,North
